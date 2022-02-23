@@ -107,7 +107,7 @@ body {
                                                     /* SERVICES here */
 
 .services {
-    background-color: navy;
+    background-color: #181818;
     transform: skewY(-6deg);
     margin-top: -9rem;
     font-family: var(--main-font);
