@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <script src="https://kit.fontawesome.com/686b12d429.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;0,700;0,900;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>TaxFluent</title>
+</head>
+<body class="flex-container">
+    <header>
+        <div class="site-header flex-container">
+            <div class="logo">
+                TaxFluent logo
+            </div>
+            <div class="navigation">
+                <nav class = "main-nav">
+                    <ul class="header-list flex-container">
+                        <li>
+                            <a href="#">About</a>
+                        </li>
+                        <li>
+                            <a href="#">Services</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>    
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+   <section class="main flex-container">  <!--  Background image for this section is randomly chosen by JS function -->
+        <div class="about">
+            <h1>GREAT PERSONAL ACOUNTING FOR YOU</h1>
+            <h3>some text here</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dolores excepturi voluptatem sint error quaerat eveniet officia odit, nesciunt expedita, voluptatibus deleniti. Nulla illo reiciendis quia exercitationem inventore consectetur dicta cumque, eius, quis dolorem ipsa hic animi maxime provident totam ipsum. Nostrum quia nisi nihil praesentium, commodi, tempore corrupti iure maxime illo cupiditate cumque possimus corporis explicabo, sed voluptatum facere asperiores voluptates delectus expedita. Ullam eos saepe amet at consectetur totam voluptate cupiditate blanditiis quas.
+            </p>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto dolor totam, dolores non dicta expedita. Nulla voluptate sint eaque distinctio architecto dicta rem pariatur sapiente ullam! Cumque possimus placeat illo. Aliquam ullam possimus eius, perspiciatis quasi dicta architecto tenetur at hic, necessitatibus similique ea aliquid animi illo quam sint. Impedit.
+            </p>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto dolor totam, dolores non dicta expedita. Nulla voluptate sint eaque distinctio architecto dicta rem pariatur sapiente ullam! Cumque possimus placeat illo. Aliquam ullam possimus eius, perspiciatis quasi dicta architecto tenetur at hic, necessitatibus similique ea aliquid animi illo quam sint. Impedit.
+            </p>
+           
+        </div>
+    </section>
+    <section class="services">
+        <h2>Services</h2>
+        <p>Everything you need and more...</p>
+        <div class="services-grid grid-container">
+            <div class="service grid-item">
+                <h3 class="service-name">Some Service</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis accusantium eos fugit molestiae officiis odio adipisci eaque ut consequuntur enim!</p>
+            </div>
+            <div class="service grid-item">
+                <h3 class="service-name">Some Service</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis accusantium eos fugit molestiae officiis odio adipisci eaque ut consequuntur enim!</p>
+            </div>
+            <div class="service grid-item">
+                <h3 class="service-name">Some Service</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis accusantium eos fugit molestiae officiis odio adipisci eaque ut consequuntur enim!</p>
+            </div>
+            <div class="service grid-item">
+                <h3 class="service-name">Some Service</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis accusantium eos fugit molestiae officiis odio adipisci eaque ut consequuntur enim!</p>
+            </div>
+        </div>
+    </section>
+    <section class="contact">
+        <div class="contact-title">
+            <h2>Contact Me</h2>
+            <p>Let's get in touch</p>
+        </div>
+        <form class="contact-form flex-container">
+            <div class="input-row flex-container">
+                <input type="text" name="name" placeholder="Full Name" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
+            </div>
+            <textarea name="message" rows="8" placeholder="Write Your Message Here..." required></textarea>
+            <input type="submit" class="btn btn-form" name="submit">
+        </fom>
+    </section>
+    <footer>
+        <div class="ft-social-media">Follow me on: </div>
+        <div class="ft-social-logos">
+           <a href="https://www.instagram.com/taxfluent_uk/"><i class="fa-brands fa-instagram"></i></a>
+           <a href="https://www.faccebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+        </div>
+        <div class="copy-date">&copy <span id="ft-year"></span></div>
+    </footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
