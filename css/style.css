@@ -318,6 +318,7 @@ footer {
 
     .input-row input, textarea {
         width: 90%;
+        
     }
 }
 
@@ -329,6 +330,11 @@ footer {
 
     .site-header {
         padding: 1em 2em;
+
+    }
+
+    .input-row input, textarea {
+        font-size: 16px;
     }
 }
 
