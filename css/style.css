@@ -70,15 +70,13 @@ body {
     
 }
 
-/* .header-list a:nth-child(2):hover, .header-list a:nth-child(3):hover {
-    padding-left: 0;
-}  */
 
 
                                                     /* MAIN here */
 
  .main {
     background-size: cover;
+    -webkit-background-size: cover;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -100,7 +98,6 @@ body {
 
 .about p {
     text-align: left;
-    /* filter: contrast(200%); */
 }
 
 
