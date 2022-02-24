@@ -131,7 +131,7 @@ body {
     width: 90%;
     transform: skewY(6deg);
     margin: 5rem auto 12rem;
-    grid-template: repeat(2, 1fr) / repeat(2, auto);
+    grid-template: repeat(2, auto) / repeat(2, auto);
     align-items: start;
     justify-items: center;
     padding-top: 4rem;
@@ -301,7 +301,7 @@ footer {
 
 @media all and (max-width:850px) {
     .services-grid {
-        grid-template-columns: repeat(1,auto);
+        grid-template: repeat(4, auto) / repeat(1,auto);
         justify-items: center;
         margin-bottom: 4rem;
     }
@@ -317,6 +317,7 @@ footer {
         width: 90%;
         
     }
+
 }
 
 @media all and (max-width:620px) {
@@ -334,4 +335,11 @@ footer {
         font-size: 16px;
     }
 }
+
+@supports (-webkit-touch-callout: none) {
+    .main {
+        background: url center top no-repeat scroll;
+        background-size: auto 100vh;
+    }
+  }
 
