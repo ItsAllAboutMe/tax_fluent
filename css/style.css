@@ -338,8 +338,8 @@ footer {
 
 @supports (-webkit-touch-callout: none) {
     .main {
-        background: center top no-repeat scroll;
-        background-size: auto 100vh;
+        background: center center no-repeat scroll;
+        
     }
   }
 
