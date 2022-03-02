@@ -175,19 +175,11 @@ body {
     opacity: 1;
 }
 
-.service-logo {
-    border: 2px solid #fff;
-    height: 50px;
-    width: 50px;
-    margin: 0 auto;
-    background-color: #fff;
+.service > i {
+    font-size: 3rem;
 }
 
-.service-logo i {
-    height: 50px;
-    min-width: 50px;
-    font-size: 2rem;
-}
+
 
 .service-name {
     color: #fff;
@@ -198,14 +190,6 @@ body {
     position:relative;
 }
 
-.logo-test {
-    height: 100px;
-    width: 100px;
-}
-
-.logo-test i {
-    font-size: 5rem;
-}
 
 
                                                     /* CONTACT here */
@@ -290,12 +274,33 @@ footer {
 
 .ft-social-media {
     font-size: 1.2rem;
+    margin-bottom: 1rem;
     
 }
 
 .ft-social-logos {
     margin-bottom: 1rem;
+    width: 8rem;
+    justify-content: space-between;
+   
 }
+
+.ft-social-logos i {
+    font-size: 2.5rem;
+    padding: 0.5rem;
+    color: #181818;
+}
+
+.ft-social-logos i:hover, .ft-social-logos i:focus {
+    font-size: 3rem;
+    padding: 0;
+}
+
+.copy-date {
+    margin-top: 0.5rem;
+}
+
+
 
                                                     /* MEDIA here */
 
