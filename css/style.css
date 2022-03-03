@@ -104,7 +104,8 @@ body {
                                                     /* SERVICES here */
 
 .services {
-    background-color: #181818;
+    background-color: #1C3474;
+    /* filter: grayscale(40%); */
     transform: skewY(-6deg);
     margin-top: -9rem;
     font-family: var(--main-font);
